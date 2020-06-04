@@ -1,0 +1,28 @@
+body {
+    color: #FDFFFF;
+    margin: 0 auto;
+    background-color: #04A6EB;
+    width: 800px;
+}
+
+button {
+    padding: 5px 20px;
+    background-color: #eb4904;
+    border-style: none;
+    border-radius: 5px;
+    border-bottom: solid 4px #c73d02;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+button:active {
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+input {
+    height: 24px;
+}
